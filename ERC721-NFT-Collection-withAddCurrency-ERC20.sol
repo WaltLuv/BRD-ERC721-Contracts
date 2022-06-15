@@ -22,7 +22,7 @@ contract Collection is ERC721Enumerable, Ownable {
     uint256 public maxMintAmount = 5;
     bool public paused = false;
 
-    constructor() ERC721("Block Republic Dao NFT Collection", "BRD") {}
+    constructor() ERC721("Block Republic Group NFT Collection", "BRG") {}
 
     function addCurrency(
         IERC20 _paytoken,
